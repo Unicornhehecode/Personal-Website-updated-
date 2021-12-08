@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+    
+    }
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    top=0;
+    left=0;
+    right=0;
+    bottom=0;
+    color: coral;
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.styling{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.designtim{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 300;
+}
+h2{
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.Menu{
+   position: absolute;
+   top:30px;
+   right:20px;
+   list-style:none;
+   z-index:10;
+   color:black;
+    cursor: pointer; 
+}
+
+.links {
+    font-size: 30px;
+    font-family: fantasy;
+    color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    float: left;
+}
+
+.links:hover{
+    background-color: coral;
+}
+
+.line {
+    margin: auto;
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+
+.atag {
+    font-size: 30px;
+}
+ 
+body {
+    text-align: center;
+  
+}
+
+
